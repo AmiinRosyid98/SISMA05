@@ -87,7 +87,7 @@ class Register extends CI_Controller {
         $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$this->secret_key}&response={$recaptcha_response}");
         $captcha_response = json_decode($verify);
         
-        return ($captcha_response->success == true && $captcha_response->score >= 0.5);
+        return ($captcha_response->success == true );
     }
 
     public function test() {

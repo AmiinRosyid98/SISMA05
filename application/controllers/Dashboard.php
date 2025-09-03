@@ -868,5 +868,12 @@ class Dashboard extends CI_Controller {
         echo json_encode(['success' => true]);
     }
 
+	public function panduan(){
+		$data['title'] = 'Panduan Pengguna';
+		$this->load->view('admin/include/header', $data);
+		$this->load->view('admin/panduan',$data);
+		$this->load->view('admin/include/footer');
+	}
+
 	
 }

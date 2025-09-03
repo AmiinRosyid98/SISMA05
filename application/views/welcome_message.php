@@ -17,21 +17,21 @@
     <title>SISMA05 - Sistem Informasi Sekolah & Madrasah</title>
 
     <!-- Primary Meta Tags -->
-<meta name="title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta name="description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+<meta name="title" content="SISMA05 - Sistem Informasi Sekolah & Madrasah">
+<meta name="description" content="SISMA05 - Sistem Informasi Sekolah & Madrasah Team">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://uideck.com/play/">
-<meta property="og:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta property="og:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+<meta property="og:title" content="SISMA05 - Sistem Informasi Sekolah & Madrasah">
+<meta property="og:description" content="SISMA05 - Sistem Informasi Sekolah & Madrasah Team">
 <meta property="og:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://uideck.com/play/">
-<meta property="twitter:title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta property="twitter:description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+<meta property="twitter:title" content="SISMA05 - Sistem Informasi Sekolah & Madrasah">
+<meta property="twitter:description" content="SISMA05 - Sistem Informasi Sekolah & Madrasah Team">
 <meta property="twitter:image" content="https://uideck.com/wp-content/uploads/2021/09/play-meta-bs.jpg">
 
     <!--====== Favicon Icon ======-->
@@ -48,6 +48,16 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/landing/assets/css/ud-styles.css" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+      .for-mobile {
+        display: none;
+      }
+      @media (max-width: 768px) {
+        .for-mobile {
+          display: block;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -82,6 +92,18 @@
                   </li>
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#contact">Kontak</a>
+                  </li>
+                  <li class="nav-item for-mobile mb-2">
+                    
+                    <a href="<?= base_url() ?>login" class="ud-main-btn ud-white-btn" style="float: right; width: 100%; color:white">
+                      <i class="fas fa-sign-in-alt"></i> Login
+                    </a>
+                  </li>
+                  <li class="nav-item for-mobile">
+                    
+                    <a href="<?= base_url() ?>register" class="ud-main-btn ud-white-btn" style="float: right; width: 100%; color:white">
+                      <i class="fas fa-user-plus"></i> Daftar
+                    </a>
                   </li>
 				 
 				  
@@ -1015,8 +1037,7 @@
             </div>
             <div class="col-md-4">
               <p class="ud-footer-bottom-right">
-                Designed and Developed by
-                <a href="https://uideck.com" rel="nofollow">UIdeck</a>
+                &copy; Copyright SISMA05 - 2025
               </p>
             </div>
           </div>

@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pencarian Lembaga</title>
+    <title>Pencarian Lembaga | SISMA05 - Sistem Informasi Sekolah & Madrasah</title>
+    <meta name="description" content="SISMA05 - Sistem Informasi Sekolah & Madrasah">
+    <meta name="keywords" content="SISMA05 - Sistem Informasi Sekolah & Madrasah">
+    <meta name="author" content="SISMA05 - Sistem Informasi Sekolah & Madrasah">
     <!-- Memuat Bootstrap CSS dari CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +16,7 @@
      <!--====== Favicon Icon ======-->
      <link
       rel="shortcut icon"
-      href="<?= base_url() ?>assets/landing/assets/images/favicon.svg"
+      href="<?= base_url() ?>assets/landing/assets/images/favicon.png"
       type="image/svg"
     />
     <style>
@@ -95,12 +98,12 @@
             <!-- Data Lembaga akan dimuat di sini -->
             <!-- Contoh data statis untuk demonstrasi -->
             <?php foreach ($lembaga as $key) { ?>
-            <div class="col-lg-4 col-md-6" data-name="<?php echo $key->nama; ?>">
+            <div class="col-lg-4 col-md-6" data-name="<?php echo $key->nama_lembaga; ?>">
                 <div class="card card-item h-100">
                     <div class="card-body">
                         <div  style="display: flex; justify-content: space-between; gap: 10px;">
                             <div style="width: 100%;">
-                                <h5 class="card-title"><?php echo $key->nama; ?></h5>
+                                <h5 class="card-title"><?php echo $key->nama_lembaga; ?></h5>
                                 <p class="card-text text-muted fs-10" style="font-size: 12px;"><i class="fa-solid fa-location-dot"></i> <?php echo $key->alamat; ?>, <?php echo $key->kab_kota; ?>, <?php echo $key->provinsi; ?>, Kode Pos : <?php echo $key->kode_pos; ?></p>
                             </div>
                             <div style="max-width: 70px; min-width: 70px;">

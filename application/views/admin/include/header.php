@@ -2,18 +2,18 @@
 <html lang="en">
   <!-- [Head] start -->
   <head>
-    <title>Dashboard | Berry Dashboard Template</title>
+    <title>SISMA05 - Sistem Informasi Sekolah & Madrasah</title>
     <!-- [Meta] -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Berry is trending dashboard template made using Bootstrap 5 design framework. Berry is available in Bootstrap, React, CodeIgniter, Angular,  and .net Technologies."
+      content="SISMA05 - Sistem Informasi Sekolah & Madrasah"
     />
     <meta
       name="keywords"
-      content="Bootstrap admin template, Dashboard UI Kit, Dashboard Template, Backend Panel, react dashboard, angular dashboard"
+      content="SISMA05 - Sistem Informasi Sekolah & Madrasah"
     />
     <meta name="author" content="codedthemes" />
 
@@ -239,7 +239,11 @@ table.dataTable th {
           <?php } ?>
         <?php } ?>
 
-
+        <li class="pc-item">
+          <a href="<?= base_url() ?>dashboard/panduan" class="pc-link"
+            ><span class="pc-micon"><i class="ti ti-book"></i></span><span class="pc-mtext">Panduan</span></a
+          >
+        </li>
         <li class="pc-item">
           <a href="<?= base_url() ?>logout" class="pc-link"
             ><span class="pc-micon"><i class="ti ti-logout"></i></span><span class="pc-mtext">Logout</span></a

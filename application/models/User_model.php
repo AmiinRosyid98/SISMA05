@@ -18,7 +18,7 @@ class User_model extends CI_Model {
             'password' => $data['password'],
             'nama_lembaga' => $data['nama_lembaga'],
             'role' => 'lembaga',
-            'status' => 'waiting',
+            'status' => 'aktif',
             'created_at' => date('Y-m-d H:i:s')
         ];
 

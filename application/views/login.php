@@ -2,20 +2,20 @@
 <html lang="en">
   <!-- [Head] start -->
   <head>
-    <title>Login | Berry Dashboard Template</title>
+    <title>Login | SISMA05 - Sistem Informasi Sekolah & Madrasah</title>
     <!-- [Meta] -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Berry is trending dashboard template made using Bootstrap 5 design framework. Berry is available in Bootstrap, React, CodeIgniter, Angular,  and .net Technologies."
+      content="SISMA05 - Sistem Informasi Sekolah & Madrasah"
     />
     <meta
       name="keywords"
-      content="Bootstrap admin template, Dashboard UI Kit, Dashboard Template, Backend Panel, react dashboard, angular dashboard"
+      content="SISMA05 - Sistem Informasi Sekolah & Madrasah"
     />
-    <meta name="author" content="codedthemes" />
+    <meta name="author" content="SISMA05 - Sistem Informasi Sekolah & Madrasah" />
 
     <!-- [Favicon] icon -->
     <link rel="icon" href="<?= base_url() ?>assets/images/favicon.png" type="image/x-icon" />

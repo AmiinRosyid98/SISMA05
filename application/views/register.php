@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- [Head] start -->
   <head>
-    <title>Daftar Akun Lembaga</title>
+    <title>Daftar Akun Lembaga | SISMA05 - Sistem Informasi Sekolah & Madrasah</title>
     <!-- Temporarily disabled CAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <!-- [Meta] -->
@@ -11,11 +11,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Berry is trending dashboard template made using Bootstrap 5 design framework. Berry is available in Bootstrap, React, CodeIgniter, Angular,  and .net Technologies."
+      content="SISMA05 - Sistem Informasi Sekolah & Madrasah"
     />
     <meta
       name="keywords"
-      content="Bootstrap admin template, Dashboard UI Kit, Dashboard Template, Backend Panel, react dashboard, angular dashboard"
+      content="SISMA05 - Sistem Informasi Sekolah & Madrasah"
     />
     <meta name="author" content="codedthemes" />
 
